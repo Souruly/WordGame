@@ -1,0 +1,108 @@
+body
+{
+	background: #f0f2f0;
+	background: -webkit-linear-gradient(to left, #f0f2f0, #000c40);
+  background: linear-gradient(to left, #f0f2f0, #000c40);
+}
+
+#signin
+{
+	background-color: #F6F6F6;
+	width: 35%;
+	height: 80%;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 20;
+
+}
+
+#errormsg
+{
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 15;
+	color: red
+}
+
+#signuplink
+{
+	color: black;
+	font-size: 10;
+}
+
+
+#newuser
+{
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 14;
+}
+
+
+button
+{
+  background-color: inherit;
+  border: 2px solid black;
+  width: 80;
+  height:40;
+  border-radius: 5px;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin: 0;
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0575E6, #00F260);
+  background: linear-gradient(to left, #0575E6, #00F260);
+  align-items: center;
+}
+
+h1 {
+  font-size: 64;
+  color : black;
+}
+
+div {
+  /* background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.0)); */
+  background-color: #E2E5B5;
+  width: 35%;
+  height: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  color : black;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-size: 20;
+}
