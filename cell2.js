@@ -1,6 +1,7 @@
 function Cell(x,y)
 {
    this.x = x;
+   this.y = y;
    this.weight = ' ';
    this.alreadySet = false;
    this.backgroundColor = color(255,255,255);
