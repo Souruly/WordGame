@@ -41,7 +41,7 @@ function setup()
    textAlign(LEFT);
 
    //Extracting data
-   loadJSON("words2.json",getWords);
+   loadJSON("english.json",getWords);
 
    //Setting limits to the number of words
    if(count>15)

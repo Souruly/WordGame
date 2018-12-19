@@ -21,7 +21,7 @@ function getWords(words)
    while(i<count)
    {
       let y = floor(random(x));
-      let z = words.english[y];
+      let z = words.science[y];
       z = z.toUpperCase();
       if(z.length<=13)
       {
@@ -41,7 +41,7 @@ function setup()
    textAlign(LEFT);
 
    //Extracting data
-   loadJSON("words2.json",getWords);
+   loadJSON("science.json",getWords);
 
    //Setting limits to the number of words
    if(count>15)
